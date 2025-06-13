@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/universitydb
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: "1234"
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  main:
+    allow-bean-definition-overriding: true
+    allow-circular-references: true
+
+universitycrud:
+  app:
+    secret: idshaio12i13wqweh3nalanklwdn79uafb1kl2po1948b1jduiqwu10omdnbfvdnczcjbsdhvqiweihoHIUuUdbadio19KJDugawdabidwoadawida88931273suabduubdvaivdaiuISdyuvyuavd
+    lifetime: 3600000
